@@ -1,0 +1,117 @@
+@font-face {
+    font-family: RedHatDisplay;
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+    font-weight:500;
+}
+@media (max-width:1440px) {
+   body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:rgb(224, 232, 255);
+   } 
+   #cards{
+    max-width:40%;
+}
+}
+@media (max-width:680px) {
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    
+        #cards{
+            max-width: 90%;
+        }
+    
+}
+body{
+
+    font-family: RedHatDisplay;
+}
+#cards{
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;    
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;    
+    margin-top:4em;
+    margin-bottom: 1.3em;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+}
+#para{
+    color: hsl(224, 23%, 55%);
+margin-left: auto;
+margin-right: auto;
+width:70%;
+font-size:16px;
+font-weight: 500;
+}
+
+#smallCard{
+    border-radius: 12px;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-bottom: 1.3em;
+    display: inline-flex;
+}
+#music{
+margin-left: 1em;
+margin-right: 1em;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+#changeButton{
+background: none;
+border: none;
+color:hsl(245, 75%, 52%);
+text-decoration: underline;
+text-align: end;
+margin-right: 1em;
+flex: auto;
+font-weight: 700;
+}
+
+#changeButton:hover{
+    text-decoration: none;
+    opacity: 0.8;    
+}
+
+#pay{
+color:hsl(225, 100%, 98%);
+background-color: hsl(245, 75%, 52%);
+width:85%;
+border: none;
+border-radius: 12px;
+padding:15px 20px;
+font-size: 16px;
+box-shadow:0px 15px 20px hsl(225deg 80% 90%);
+margin-bottom: 1.3em;
+margin-top: 1.3em;
+font-weight: 700;
+}
+
+#pay:hover{
+opacity: 0.8;
+cursor: pointer;
+}
+
+#cancel{
+    color:hsl(224, 23%, 55%);
+background: none;
+width: 85%;
+border: none;
+margin-top: 1em;
+margin-bottom: 3em;
+font-weight: 700;
+}
+
+#cancel:hover{
+color:hsl(223, 47%, 23%) ;
+cursor: pointer;
+}
