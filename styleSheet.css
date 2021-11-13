@@ -1,8 +1,3 @@
-@font-face {
-    font-family: RedHatDisplay;
-    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
-    font-weight:500;
-}
 @media (max-width:40000px) {
    body{
     background-image: url("images/pattern-background-desktop.svg");
@@ -25,7 +20,7 @@
 }
 body{
 
-    font-family: RedHatDisplay;
+  font-family: 'Red Hat Display', sans-serif;
 }
 #cards{
     background-color: white;
